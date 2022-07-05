@@ -1,4 +1,11 @@
-#fondo {
+body {
+    overflow: hidden;
+    margin: 0%;
+}
+
+
+
+.fondo {
     background-image: url(../img/bandera.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,10 +16,12 @@
     top: 0;
     left: 0;
     background-position: center;
-    z-index: 0;
-
+    z-index: -1;
 }
 
+.pizza {
+    background-image: url(../img/pizza.jpg);
+}
 
 .titulo {
     color: white;
@@ -105,4 +114,18 @@ input[type=text], select {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+  }
+
+  ul{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    list-style: none;
+  }
+
+  li{
+    list-style: none;
+    width: 20%;
+    display: inline-block;
+    
   }
