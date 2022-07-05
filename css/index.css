@@ -130,7 +130,9 @@ ul {
     bottom: 10px;
     list-style: none;
     text-align: center;
-    
+    z-index: 1;
+    left: 5px;
+
 }
 
 li {
@@ -140,7 +142,13 @@ li {
     border: double white;
     border-style: solid;
     text-align: center;
-    font-size: x-large;
+    font-size: medium;
+
+    height: 5vh;
+    min-height: 80px;
+    overflow: hidden;
+    width: 20%;
+    min-width: 180px;
 }
 
 .centrado {
